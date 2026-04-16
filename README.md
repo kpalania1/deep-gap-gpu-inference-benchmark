@@ -119,7 +119,37 @@ Columns include:
 
 ------------------------------------------------------------------------
 
-# 8. TensorRT artifacts
+# 8. GPU telemetry script
+
+``` bash
+start_gpu_telemetry.sh
+```
+Continuously records GPU hardware metrics using nvidia-smi during benchmark execution.
+
+The script captures:
+
+-  GPU temperature
+-  power consumption (W)
+-  GPU utilization (%)
+-  memory utilization (%)
+-  total GPU memory used (MB)
+-  SM clock frequency
+-  memory clock frequency
+-  GPU performance state (P-state)
+
+Data is logged once per second and written to:
+``` bash
+gpu_telemetry_full_run.csv
+```
+
+Start telemetry before running benchmarks:
+``` bash
+./start_gpu_telemetry.sh
+```
+
+------------------------------------------------------------------------
+
+# 9. TensorRT artifacts
 
 INT8 script generates:
 
@@ -133,12 +163,12 @@ Includes:
 
 ------------------------------------------------------------------------
 
-# 9. Reproducibility
+# 10. Reproducibility
 
 To reproduce results consistently, use the same batch sizes and iteration counts, ensure the GPU is not shared with other workloads, and allow a cooling interval between runs.
 
 ------------------------------------------------------------------------
 
-# 10. Citation
+# 11. Citation
 
 DEEP-GAP: Deep-learning Evaluation of Execution Parallelism in GPU Architectural Performance

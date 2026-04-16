@@ -12,21 +12,21 @@ to evaluate GPU inference performance across FP32, FP16, and INT8 precision mode
 
 This benchmark measures:
 
-• Throughput (images/sec)
-• Median latency (ms)
-• P99 latency (ms)
-• Precision scaling effects (FP32 vs FP16 vs INT8)
-• GPU memory usage via NVML
-• Batch size scaling behavior
-• TensorRT optimization benefits
+-   Throughput (images/sec)
+-   Median latency (ms)
+-   P99 latency (ms)
+-   Precision scaling effects (FP32 vs FP16 vs INT8)
+-   GPU memory usage via NVML
+-   Batch size scaling behavior
+-   TensorRT optimization benefits
 
 ------------------------------------------------------------------------
 
 # 2. Models Evaluated
 
-• ResNet-18
-• ResNet-50
-• ResNet-101
+-   ResNet-18
+-   ResNet-50
+-   ResNet-101
 
 Pretrained ImageNet weights are used.
 

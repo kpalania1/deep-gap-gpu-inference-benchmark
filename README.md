@@ -4,6 +4,8 @@
 This repository provides the exact benchmarking scripts used in the DEEP-GAP study
 to evaluate GPU inference performance across FP32, FP16, and INT8 precision modes.
 
+<img src="images/figure_thread_sweep_diagram_bg.png" width="400">
+
 ------------------------------------------------------------------------
 
 # 1. Overview

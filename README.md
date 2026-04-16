@@ -79,21 +79,23 @@ Input size:
 # 6. Running Benchmark
 
 Run all:
-
+``` bash
 chmod +x run_all_benchmarks.sh
 ./run_all_benchmarks.sh
-
+```
 Or individually:
-
+``` bash
 cd FP32
 python run_benchmark_resnet_18_50_101_FP32_NVML.py
-
+```
+``` bash
 cd FP16
 python run_benchmark_resnet_18_50_101_FP16_NVML.py
-
+```
+``` bash
 cd INT8-TensorRT
 python run_benchmark_resnet_18_50_101_INT8_TensorRT_NVML.py
-
+```
 ------------------------------------------------------------------------
 
 # 7. Output

@@ -133,12 +133,7 @@ calibration cache
 
 # 9. Reproducibility
 
-Ensure:
-
-same batch sizes
-same iteration counts
-GPU not shared
-cooling gap between runs
+To reproduce results consistently, use the same batch sizes and iteration counts, ensure the GPU is not shared with other workloads, and allow a cooling interval between runs.
 
 ------------------------------------------------------------------------
 

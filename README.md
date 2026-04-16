@@ -37,10 +37,10 @@ Pretrained ImageNet weights are used.
 FP32 (PyTorch eager)
 run_benchmark_resnet_18_50_101_FP32_NVML.py
 
-FP16 (PyTorch mixed precision)
+FP16 (PyTorch half-precision)
 run_benchmark_resnet_18_50_101_FP16_NVML.py
 
-INT8 (TensorRT optimized inference)
+INT8 (TensorRT quantized inference)
 run_benchmark_resnet_18_50_101_INT8_TensorRT_NVML.py
 
 ------------------------------------------------------------------------

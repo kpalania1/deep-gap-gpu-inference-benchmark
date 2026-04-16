@@ -63,10 +63,10 @@ pip install tensorrt pycuda
 
 # 5. Benchmark Configuration
 
-Warmup iterations: 20
-Timed iterations: 100
-Repeats per config: 3
-Sweeps per config: 10
+-   Warmup iterations: 20
+-   Timed iterations: 100
+-   Repeats per config: 3
+-   Sweeps per config: 10
 
 Batch sizes:
 1,2,4,8,16,32,64,128,256,384,512
@@ -108,14 +108,14 @@ inside its respective folder.
 
 Columns include:
 
-timestamp
-model
-batch size
-median latency
-p99 latency
-throughput
-gpu memory usage
-system metadata
+-   timestamp
+-   model
+-   batch size
+-   median latency
+-   p99 latency
+-   throughput
+-   gpu memory usage
+-   system metadata
 
 ------------------------------------------------------------------------
 
@@ -127,9 +127,9 @@ trt_artifacts/
 
 Includes:
 
-ONNX model
-TensorRT engine
-calibration cache
+-   ONNX model
+-   TensorRT engine
+-   calibration cache
 
 ------------------------------------------------------------------------
 

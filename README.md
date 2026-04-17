@@ -1,5 +1,6 @@
 
 # DEEP-GAP: Deep-learning Evaluation of Execution Parallelism in GPU Architectural Performance
+[![arXiv](https://img.shields.io/badge/arXiv-2602.16858-b31b1b.svg)](https://arxiv.org/abs/2604.14552)
 
 This repository provides the exact benchmarking scripts used in the DEEP-GAP study
 to evaluate GPU inference performance across FP32, FP16, and INT8 precision modes.
